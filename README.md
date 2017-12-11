@@ -32,6 +32,18 @@ final class Access extends Enum
     const ALLOW = 'allow';
     const DENY  = 'deny';
 }
+
+// constructor style
+$allow = new Access(Access::DENY);
+
+// static method style
+$allow = Access::ALLOW();
+
+// use in function arguments
+function hoge(Access $access) {
+    // do something
+}
+hoge(Access::ALLOW());
 ```
 
 ## Testing
