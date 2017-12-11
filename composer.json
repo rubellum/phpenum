@@ -1,0 +1,22 @@
+{
+  "name": "rubellum/phpenum",
+  "description": "Enumeration objects in PHP",
+  "license" : "MIT",
+  "authors": [
+    {
+      "name": "Hiroaki Matsuura",
+      "email": "lib2jp@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 || ^5.0"
+  }
+}
